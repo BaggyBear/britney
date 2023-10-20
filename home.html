@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css"
     <title>Britney</title>
 </head>
 <body>
     <h1>Britney</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td class="slideshow-td">
+                <!--Slideshow Container-->
+                <div class="slideshow-container">
+                    <!--fix box with image and number image-->
+                    <div class="myGallery fade">
+                        <div class="numbertext">1/9</div>
+                        <img src="img/bs1.jpg" style="width:85%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="myGallery fade">
+                        <div class="numbertext">2/9</div>
+                        <img src="img/bs2.jpg" style="width:85%">
+                        <div class="text"></div>
+                    </div>
+                    <div class="myGallery fade">
+                        <div class="numbertext">3/9</div>
+                        <img src="img/bs3.jpg" style="width:85%">
+                        <div class="text"></div>
+                    </div>       
+                <a class="prev" onclick="plusGallery(-1)">&#10094</a>
+                <a class="next" onclick="plusGallery(1)">&#10095</a>
+                </div>
+                </td>
+                <td ><img src="img/britney-spears-1.jpg" style="width:100%"/></td>
+                <td ><img src="img/bs2.jpg" style="width:85%"/></td>
+            </tr>
+        </tbody>
+    </table>
+<script src="js/gallery.js"></script>
+<script src="js/slideshow.js"></script>
 </body>
 </html>

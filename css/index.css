@@ -69,6 +69,14 @@
     top: -30px;
     left: 238px;
 }
+.numberslide {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 59px;
+    right: 297px;
+}
 /*dot indicators*/
 .dot{
     cursor: pointer;
